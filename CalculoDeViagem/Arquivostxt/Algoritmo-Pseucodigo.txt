@@ -1,0 +1,14 @@
+Algoritmo
+1-Criar codigo em Java que calcule um custo de viagem.
+2-Calcular KM / consumo do transporte
+3-calcular quantidade de listros * preço do combustivel
+4- escrever o resustado.
+
+PseudoCodico
+1- distanciaPercorrida = obter do usuário(km);
+2- consumoTransporte = obter do usuário(km/L);
+3- preçoCombustivel = obter do usuario(R$);
+4- quantidadeLitrosCombustivel = distanciaPercorrida/consumoTransporte;
+5- custoTotal= quantidadeLitrosCombustivel * preçoCombustivel;
+6- mostrar para o usuario (custoTotal);
+
