@@ -2,7 +2,8 @@ package CalculadoraDescontos;
 
 import java.util.Scanner;
 
-public class CalculadoraDescontos {
+public class CalculadoraDescontos{
+
     public void calcular20(){
 
         Scanner sc = new Scanner(System.in);
@@ -14,6 +15,7 @@ public class CalculadoraDescontos {
        -(precoProduto*desconto20/100);
        System.out.println( "O Preço com Desconto é "
        +precoComDesconto+" reais"); 
+       sc.close();
     }
        public void calcular30(){
         double precoProduto;
@@ -23,7 +25,7 @@ public class CalculadoraDescontos {
        -(precoProduto*desconto20/100);
        System.out.println( "O Preço com Desconto é "
        +precoComDesconto+" reais"); 
-       sc.close();
+      
 
     }
     public void calcular50(){
