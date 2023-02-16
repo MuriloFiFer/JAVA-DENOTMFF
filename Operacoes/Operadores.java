@@ -22,8 +22,8 @@ public class Operadores {
     }
     public void atribuicao() {
         System.out.println("===============================");
-        int umNumero = 5;
-        umNumero += 2;
+        int umNumero = 5; //atribuir valor para umNumero
+        umNumero += 2; //atribuir 2 ao valor inicial de umNumero.
         System.out.println("Resultado da adição de 5 com 2: " + umNumero);
         umNumero = 5; // Voltando o valor para 5.
         umNumero -= 2;
@@ -46,6 +46,5 @@ public class Operadores {
         
     }
 
-}
 
-}
+
