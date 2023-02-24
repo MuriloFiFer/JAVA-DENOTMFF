@@ -20,14 +20,14 @@ public void decisaoIf(){
     if (precoProduto >=300){
         percentualDesconto = 15.0;
     }
-}
+  
     //Regra de três;
     double desconto = (precoProduto * percentualDesconto) / 100;
     double precoComDesconto = precoProduto - desconto;
     System.out.println("O produto saíra por R$" + precoComDesconto);
 
 
-
+}
 
 }
 
