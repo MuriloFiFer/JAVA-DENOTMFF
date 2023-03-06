@@ -6,7 +6,7 @@ public class exercicio3 {
 
     Scanner sc = new Scanner(System.in);
 
-    public void exercicio3() {
+    public void Exercicio3() {
         int senha = 1234;
         System.out.println("Digite a senha de acesso");
         int senhaDigitada = sc.nextInt();
