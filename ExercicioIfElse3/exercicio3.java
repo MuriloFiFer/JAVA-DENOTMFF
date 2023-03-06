@@ -2,7 +2,7 @@ package ExercicioIfElse3;
 
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class exercicio3 {
 
     Scanner sc = new Scanner(System.in);
 
