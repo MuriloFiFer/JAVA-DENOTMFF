@@ -7,10 +7,11 @@ public class Exercicio4 {
     Scanner sc = new Scanner(System.in);
 
     public void exercicio4() {
-        double compraMenor = 0.30;
-        double compraMaior = 0.25;       
-        System.out.println("Qantas maças foram compradas?");
+          
+        System.out.println("Quantas maças foram compradas?");
         int compraMaças = sc.nextInt();
+        double compraMenor = 0.25;
+        double compraMaior = 0.30;  
         double desconto1 = ( compraMaças * compraMenor );
         double desconto2 = ( compraMaças * compraMaior );
 

@@ -2,8 +2,8 @@ package ExercicioIfElse5;
 
 import java.util.Scanner;
 
-public class main {
-    public void main(String[] args) {
+public class Exercicio5 {
+    public void Exercicio5(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Lê os valores inteiros do usuário
@@ -49,6 +49,7 @@ public class main {
         }
               // Imprime os números em ordem crescente
               System.out.println(menor + " " + meio + " " + maior);
+              scanner.close();
     }
 }
     

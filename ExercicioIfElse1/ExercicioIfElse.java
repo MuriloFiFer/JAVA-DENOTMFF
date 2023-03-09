@@ -3,6 +3,8 @@ package ExercicioIfElse1;
 
 import java.util.Scanner;
 
+import javax.sql.rowset.spi.SyncResolver;
+
 public class ExercicioIfElse {
 
     Scanner sc = new Scanner(System.in);
@@ -23,5 +25,4 @@ public class ExercicioIfElse {
         }
 
     }
-
 }
