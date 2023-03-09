@@ -1,10 +1,9 @@
-Exercicio 5 -Escreva um programa para ler 3 valores inteiros (considere que não serão
-lidos valores iguais) e escrevê-los em ordem crescente
+package ExercicioIfElse5;
 
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class main {
+    public void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Lê os valores inteiros do usuário
@@ -48,8 +47,8 @@ public class Main {
                 maior = num1;
             }
         }
-
-        // Imprime os números em ordem crescente
-        System.out.println(menor + " " + meio + " " + maior);
+              // Imprime os números em ordem crescente
+              System.out.println(menor + " " + meio + " " + maior);
     }
 }
+    

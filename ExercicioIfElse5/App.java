@@ -3,9 +3,8 @@ package ExercicioIfElse5;
 public class App {
     
     public static void main(String[] args) {
-
-        Exercicio5 objeto1 = new Exercicio5();
-        objeto1.exercicio5();
+        main objeto1 = new main();
+        objeto1.main(args);
 }
 
 }
