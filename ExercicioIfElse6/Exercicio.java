@@ -1,9 +1,9 @@
 package ExercicioIfElse6;
 
-import java.util.Scanner;
-
-public class Exercicio6 {
-    public static void main(String[] args) {
+    import java.util.Scanner;
+public class Exercicio{
+public void Exemplo() {
+     
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner input = new Scanner(System.in);
         
