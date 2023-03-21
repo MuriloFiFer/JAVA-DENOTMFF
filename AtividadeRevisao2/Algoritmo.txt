@@ -1,0 +1,4 @@
+1º - Ler a quantidade de horas trabalhadas/mês;
+2º - Ler o valor da hora trabalhada;
+3º - Calcular a quantidade horas extras;
+4º - Calcular o salário total; (hora extra + 50%);
