@@ -17,14 +17,14 @@ public class ExerciciosWhile {
             int vetorA[]=new int[]{2,4,6,8,10,12,14,16};
             int vetorB[]=new int[8];
             int i=0;
-            while(i<8) {
+            while(i<vetorA.length) {
                 vetorB[i]=vetorA[i]*2;
                 System.out.println("vetorB["+i+"]="+vetorB[i]);
                 i++;
             }
         }
 
-        public void Exercicio3(){
+        public void Exercicio3(){                    //vetorB raiz (vetorA)
             int vetorA[]=new int[]{2,4,6,8,10,12,14,16,18,20,22,24,26,28,30};
             int vetorB[]=new int[15];
             int i=0;
@@ -35,7 +35,7 @@ public class ExerciciosWhile {
             }
         }
 
-        public void Exercicio4(){
+        public void Exercicio4(){                  //vetorB = sqrt(vetorA)
             int vetorA[]=new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
             double vetorB[]=new double[15];
             int i=0;
@@ -46,7 +46,7 @@ public class ExerciciosWhile {
                }
         }
 
-        public void Exercicio5(){
+        public void Exercicio5(){                //vetorB =   vetorA * i
             int vetorA[]=new int[]{1,2,3,4,5,6,7,8,9,10};
             int vetorB[]=new int[10];
             int i=0;
@@ -56,8 +56,8 @@ public class ExerciciosWhile {
             i++;     
                }
         }
-
-        public void Exercicio6(){
+ 
+        public void Exercicio6(){                       //vetorC = (vetorA) + (vetorB)
             int vetorA[]=new int[]{1,2,3,4,5,6,7,8,9,10};
             int vetorB[]=new int[]{1,2,3,4,5,6,7,8,9,10};
             int vetorC[]=new int[10];
