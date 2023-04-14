@@ -96,7 +96,7 @@ public class Exercicio4 {
             
         }
 
-        public void exemplo5Extra(){
+        public void exercicio5Extra(){
             int vetor[]=new int []{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
             int i=0;
             int vetorPar[]=new int[vetor.length];
@@ -119,6 +119,29 @@ public class Exercicio4 {
                
     
         }
-    
+     //exercicio não terminado
+        public void exercicio6(){
+            System.out.println("Digite a nota do 1º aluno");
+            int nota1 = sc.nextInt();
+            System.out.println("Digite a nota do 2º aluno");
+            int nota2 = sc.nextInt();
+            System.out.println("Digite a nota do 3º aluno");
+            int nota3 = sc.nextInt();
+            System.out.println("Digite a nota do 4º aluno");
+            int nota4 = sc.nextInt();
+            int vetor[]=new int []{1,2,3,4};
+            int i=0;
+            while(i<vetor.length){
+                vetor[i]=nota1;
+                vetor[i]=nota2;
+                vetor[i]=nota3;
+                vetor[i]=nota4;
+            }
+
+         
+
+
+        }
+
 
 }
