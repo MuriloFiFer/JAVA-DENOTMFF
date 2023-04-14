@@ -95,6 +95,30 @@ public class Exercicio4 {
             }
             
         }
+
+        public void exemplo5Extra(){
+            int vetor[]=new int []{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+            int i=0;
+            int vetorPar[]=new int[vetor.length];
+            int vetorImpar[]=new int[vetor.length];
+            while(i<vetor.length){
+                if(vetor[i]%2==0){
+                    vetorPar[i]=vetor[i];
+                }else{ // caso contrario
+                    vetorImpar[i]=vetor[i];
+                }
+                i++;
+            }
+            i=0;
+            while(i<vetor.length){   
+                System.out.println("vetor["+i+"]="+vetor[i]);
+                System.out.println("vetorPar["+i+"]="+vetorPar[i]);
+                System.out.println("vetorImpar["+i+"]="+vetorImpar[i]);
+                i++;
+                }
+               
+    
+        }
     
 
 }
