@@ -138,10 +138,6 @@ public class Exercicio4 {
                 vetor[i]=nota4;
             }
 
-         
-
-
         }
-
 
 }
