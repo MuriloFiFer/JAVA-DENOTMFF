@@ -61,7 +61,7 @@ Scanner sc = new Scanner(System.in);
         public void exemplo5(){
             //ler 4 notas de 10 alunos
             // vetor para guardar as médias
-            double vetorMedia[]=new double[03];
+            double vetorMedia[]=new double[10];
             //preencher o vetor de médias
             for (int i = 0; i < vetorMedia.length; i++) {
                 double notas=0;
@@ -79,6 +79,22 @@ Scanner sc = new Scanner(System.in);
             }
         }
 
-    }
+
+        public void exercicio7(){
+            int vetorNumero[]=new int[5];
+            for (int i = 0; i < vetorNumero.length; i++) {
+                int numeroSoma=0;
+                numeroSoma += vetorNumero[i];
+                System.out.println("Digite o "+(i+1)+ "º numero:");
+                numeroSoma +=sc.nextInt();
+            }
+            for (int i = 0; i < vetorNumero.length; i++) {
+                int numeroSoma=0;
+                    numeroSoma+=vetorNumero[i];
+            }
+        }
+}
+
+    
     
 
