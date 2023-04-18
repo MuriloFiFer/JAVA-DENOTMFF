@@ -2,18 +2,20 @@ package IteracaoFor;
 
 import java.util.Scanner;
 
+import javax.sql.rowset.spi.SyncResolver;
+
 public class ExemploFor {
 
 Scanner sc = new Scanner(System.in);
 
-    public void exemplo1(){
+    public void exercicio1(){
         for(int i=0;i<10;i++){  //declarações dentro do laço
           System.out.println("o n da iteração é "+i);
         }
     }
 
 
-    public void exemplo2(){
+    public void exercicio2(){
         int vetor[]=new int[10];  //criando o vetor 10 posições
         //preenchendo o vetor com for
         for (int i = 0; i < vetor.length; i++) {  //"fori" atalho de preenchimento
@@ -82,18 +84,25 @@ Scanner sc = new Scanner(System.in);
 
         public void exercicio7(){
             int vetorNumero[]=new int[5];
+            int valorFinal=0;
+            
             for (int i = 0; i < vetorNumero.length; i++) {
-                int numeroSoma=0;
-                numeroSoma += vetorNumero[i];
-                System.out.println("Digite o "+(i+1)+ "º numero:");
-                numeroSoma +=sc.nextInt();
-            }
+                System.out.println("Digite o numero nº ");
+                vetorNumero[i]=sc.nextInt();
+                valorFinal+=vetorNumero[i];
+                System.out.println("A Soma parcial é "+valorFinal);            
+            }              
+                System.out.println("O valor total da Soma é "+valorFinal);
+                valorFinal=1;
+            
             for (int i = 0; i < vetorNumero.length; i++) {
-                int numeroSoma=0;
-                    numeroSoma+=vetorNumero[i];
+                valorFinal*=vetorNumero[i];
+                System.out.println("A multiplicação parcial dos numeros é "+valorFinal);
             }
+            System.out.println("O valor total da multiplicação é "+valorFinal);
         }
-}
+        }
+
 
     
     
