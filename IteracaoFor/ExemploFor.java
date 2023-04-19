@@ -97,6 +97,39 @@ Scanner sc = new Scanner(System.in);
         }
 
 
+        //ler 20 numeros e separar em pares e impares
+        public void exercicio5(){
+            //criar um vetor para os nº
+            int numeros []=new int [20];
+            int contPar=0;  //contador de nº pares
+            int contImpar=0;  //contador de nº impares
+            //Preencher o vetor de nº e determinar o nº de impares e pares
+            for (int i = 0; i < numeros.length; i++) {
+                System.out.println("Informe o nº["+i+"]=");
+                numeros[i]=sc.nextInt();
+                if(numeros[i]%2==0 ){   //numero PAR dividido por 2 = 0;
+                    contPar++;
+                }else{
+                    contImpar++;
+                }  
+            }
+            //Após a contagem de pares e impares, criar os respectivos vetores
+            int nPar[]=new int[contPar];
+            int nImpar[]=new int[contImpar];
+            //distribuir os nº do vetor nº para os vetores par e impar
+            contPar=0;
+            contImpar=0;
+            for (int i = 0; i < nImpar.length; i++) {
+                if(numeros[i]%2==0){
+                    nPar[contPar]=numeros[i];
+                    contPar++;
+                } else{
+                    nImpar[contImpar]=numeros[i];
+                    contImpar++;
+                }
+            }
+        }
+
 
         public void exercicio6(){
             //ler 4 notas de 10 alunos
