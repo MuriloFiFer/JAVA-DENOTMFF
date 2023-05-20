@@ -90,7 +90,7 @@ public class Atividade {
     //EXERCICIO 3
 
     public void exercicio3() {
-     
+    
         int sorteio = rd.nextInt(901) + 100; // 
 
         
