@@ -1,13 +1,13 @@
 package POOExercicio1;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class App {
     
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         //criar o objeto
         Pessoa pessoa1 = new Pessoa();  //construtor vazio
         //chamei os métodos
