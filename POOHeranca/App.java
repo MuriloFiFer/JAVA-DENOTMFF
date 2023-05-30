@@ -1,5 +1,7 @@
 package POOHeranca;
 
+import javax.swing.plaf.BorderUIResource.EmptyBorderUIResource;
+
 import POOHeranca.Pessoas.Alunos;
 import POOHeranca.Pessoas.Funcionarios;
 import POOHeranca.Pessoas.Professores;
@@ -12,15 +14,16 @@ public class App {
         // Pessoas pessoa01 = new Pessoas();    //(classe abstrata)
         Funcionarios funcionario01 = new Funcionarios();
         Professores professor01 = new Professores();
-        aluno01.setAluno("Alberto");
+        aluno01.setAluno("Alberto Silva");
         //pessoa01.setPesoa("Pessoas");
         funcionario01.setFuncionario("Manutenção");
-        professor01.setNome("Disciplina");
+        professor01.setDisciplina("Matemática");
 
 
 
-        //set
-        
+       
+    
+    
 
     }
     
