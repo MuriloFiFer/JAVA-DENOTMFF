@@ -33,7 +33,7 @@ public class App {
     //preencher os atributos
     pessoas[i].setNome("Pessoaa" + 1);
     pessoas[i].setAltura(i);
-    pessoas[i].setIdade9i + 18);
+    pessoas[i].setIdade9i + 18;
 
     pessoas[i].imprimir();
          String nomeDigitado= JOptionPane.showInputDialog("Nome Buscado:");     //enquanto nomeDigirado != nome do Objeto
