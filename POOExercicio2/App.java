@@ -22,7 +22,7 @@ public class App {
          contatos[i].setNome(JOptionPane.showInputDialog("Nome"));
               
     }
-    Random rd = new Random(0);
+    
     //vetor de objetos
     Agenda pessoas[] = new Agenda[10];
     // preencher o meu vetor/Array
@@ -33,7 +33,7 @@ public class App {
     //preencher os atributos
     pessoas[i].setNome("Pessoaa" + 1);
     pessoas[i].setAltura(i);
-    pessoas[i].setIdade9i + 18;
+    pessoas[i].setIdade(i) + 18;
 
     pessoas[i].imprimir();
          String nomeDigitado= JOptionPane.showInputDialog("Nome Buscado:");     //enquanto nomeDigirado != nome do Objeto
