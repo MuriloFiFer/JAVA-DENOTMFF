@@ -64,7 +64,7 @@ public class App {
                     //     acesso=false;
                     // }
                 }
-                JOptionPane.showMessageDialog(null,"Nome da Empresa:"+clientePJ[i].getNome()+ "numero CNPJ:"+clientePJ[i].getnCnpj() );
+                JOptionPane.showMessageDialog(null,"Nome da Empresa:"+clientePJ[i].getNome()+ ", número do CNPJ:"+clientePJ[i].getnCnpj() );
                 //menu de acesso da conta
                
                 while(acesso){ //acessei a Conta
@@ -94,16 +94,18 @@ public class App {
            if (acao == 4) { // acessa uma conta já criada PF
                 // localizar a conta no vetor
                 int i; //contador
-                int nContaBuscada = Integer.parseInt(JOptionPane.showInputDialog("Informe o numero da conta buscada"));
+                int nContaBuscada = Integer.parseInt(JOptionPane.showInputDialog("Informe o número da conta buscada"));
+                boolean acesso = true;
                 for (i = 0; i < clientePF.length; i++) {
                     if(nContaBuscada==clientePF[i].getnConta()){
                         JOptionPane.showMessageDialog(null,"Conta Encontrada");
+                        JOptionPane.showMessageDialog(null,"Nome do cliente:"+clientePF[i].getNome()+ ", número do CPF:"+clientePF[i].getnCpf() );
                                                 break;
                     }
                 }
                 
                 //menu de acessi da conta
-                boolean acesso = true;
+              
                 while(acesso){ //acessei a Conta
                     int acao4 = Integer.parseInt(JOptionPane.showInputDialog("Informe a operação Desejada:"
                     + "\n 1-Consultar o Saldo"
@@ -114,10 +116,10 @@ public class App {
                         JOptionPane.showMessageDialog(null, "Seu saldo é de R$ "+clientePF[i].getSaldo());
                     }
                     else if (acao4==2){//saque
-                        clientePJ[i].saque();
+                        clientePF[i].saque();
                     }
                     else if (acao4 == 3){//deposito
-                        clientePJ[i].deposito();
+                        clientePF[i].deposito();
                     }
                     else if (acao4 == 4){
                        break ;
