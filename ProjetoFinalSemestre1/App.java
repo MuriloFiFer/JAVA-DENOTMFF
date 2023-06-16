@@ -119,7 +119,7 @@ public class App {
                         clientePF[i].deposito();
                     }
 
-                    /realizar função 4 de transferencia
+                    //realizar função 4 de transferencia
 
                     // else if (acao4 == 4){
                     // break ;
